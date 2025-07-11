@@ -26,6 +26,11 @@ terraform apply --var-file=prod.tfvars -auto-approve
 terraform destroy --var-file=prod.tfvars -auto-approve
 ```
 
+#### when Dynamodb table created or statefile  backend config added.
+```bash
+terraform init -reconfigure
+```
+
 ## 🗂️ Categories
 | Category       | Services                      |
 | -------------- | ----------------------------- |
@@ -54,4 +59,3 @@ terraform destroy --var-file=prod.tfvars -auto-approve
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/5f7a974a-480a-4c26-bbb7-60874d947bfc" />
 
 
->>>>>>> d90dbdcdaeb3e7f97bdb5d49ad9a0a789077ef5f
