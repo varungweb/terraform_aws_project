@@ -21,8 +21,8 @@ Traraform EC2 VPC ALB S3 with modules
 | **ALB**            | Subnets, SG, EC2              | Routes traffic to EC2   |
 | **S3**             | Internet, optionally EC2      | Static file storage     |
 
-<img width="2167" height="1298" alt="image" src="https://github.com/user-attachments/assets/34d06c45-797e-4dfb-b439-7e21cb755cf5" />
-
+---
+## Architecture Diagram
 <img width="2167" height="1298" alt="image" src="https://github.com/user-attachments/assets/057f2ef5-a3ac-4f08-8e3f-a43407368e6c" />
 
 
