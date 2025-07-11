@@ -23,9 +23,9 @@ Traraform EC2 VPC ALB S3 with modules
 
 ---
 ## Architecture Diagram
-<img width="2167" height="1298" alt="image" src="https://github.com/user-attachments/assets/057f2ef5-a3ac-4f08-8e3f-a43407368e6c" />
+<img width="985" height="590" alt="image" src="https://github.com/user-attachments/assets/057f2ef5-a3ac-4f08-8e3f-a43407368e6c" />
 
 ## AWS
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f7a974a-480a-4c26-bbb7-60874d947bfc" />
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/5f7a974a-480a-4c26-bbb7-60874d947bfc" />
 
 
