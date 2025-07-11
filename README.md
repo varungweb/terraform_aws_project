@@ -25,7 +25,7 @@ terraform apply --var-file=prod.tfvars -auto-approve
 ```bash
 terraform destroy --var-file=prod.tfvars -auto-approve
 ```
-=======
+
 ## 🗂️ Categories
 | Category       | Services                      |
 | -------------- | ----------------------------- |
