@@ -1,4 +1,4 @@
-#Traraform EC2 VPC ALB S3 with modules
+# Traraform EC2 VPC ALB S3 with modules
 
 ## Test1 - Work Under Progress
 
