@@ -77,7 +77,7 @@ terraform init -reconfigure
 
 ### **Overall Summary**
 
-The conversation details the deployment of AWS resources using Terraform, including the creation of EC2 instances, S3 buckets, and a load balancer, along with the implementation of a backend for state file management and security group configurations, and post-deployment tasks using Python.
+This Project is about the deployment of AWS resources using Terraform, including the creation of EC2 instances, S3 buckets, and a load balancer, along with the implementation of a backend for state file management and security group configurations, and post-deployment tasks using Python.
 
 ---
 
