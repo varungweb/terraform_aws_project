@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "s3_bucket2" {
   bucket = "varungweb1-sync" # change this
 
-  lifecycle {
-    prevent_destroy = true
-  }
+  # lifecycle {
+  #   prevent_destroy = true
+  # }
 }
 
 # Trust relationship for EC2
