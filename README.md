@@ -1,7 +1,6 @@
-# terraform_aws_project
-Traraform EC2 VPC ALB S3 with modules
+#Traraform EC2 VPC ALB S3 with modules
 
-## Test1
+## Test1 - Work Under Progress
 
 ```bash
 cd test1
@@ -23,7 +22,7 @@ python3 postdeploy.py
 terraform destroy -auto-approve
 ```
 
-## Prod
+## Prod Example
 ```bash
 cd prod
 ```
