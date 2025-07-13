@@ -21,18 +21,18 @@ resource "aws_instance" "vps-1" {
     destination = "/home/ubuntu/install-docker.sh"
   }
 
-  provisioner "remote-exec" {
-    inline = [
-      "sudo apt update -y",
-      "sudo apt install -y bpytop",
-      "cd /home/ubuntu/",
-      "chmod +x install-docker.sh",
-      "bash install-docker.sh"
-    ]
-  }
+  # provisioner "remote-exec" {
+  #   inline = [
+  #     "sudo apt update -y",
+  #     "sudo apt install -y bpytop",
+  #     "cd /home/ubuntu/",
+  #     "chmod +x install-docker.sh",
+  #     "bash install-docker.sh"
+  #   ]
+  # }
 }
 
-module "sg" {
-  source = "../modules/sg"
-  vpc_id = "vpc-079fa90c2584edd3c"
-}
+# module "sg" {
+#   source = "../modules/sg"
+#   vpc_id = "vpc-079fa90c2584edd3c"
+# }
