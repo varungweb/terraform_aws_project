@@ -4,6 +4,11 @@ provider "aws" {
 
 resource "aws_s3_bucket" "s3_bucket" {
   bucket = "varungweb1-terraform-state" # change this
+  
+  lifecycle {
+    prevent_destroy = true
+  }
+
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
@@ -15,4 +20,9 @@ resource "aws_dynamodb_table" "terraform_lock" {
     name = "LockID"
     type = "S"
   }
+
+  lifecycle {
+    prevent_destroy = true
+  }
+  
 }

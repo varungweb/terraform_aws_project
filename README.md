@@ -1,6 +1,29 @@
 # terraform_aws_project
 Traraform EC2 VPC ALB S3 with modules
 
+## Test1
+
+```bash
+cd test1
+```
+
+```bash
+terraform fmt && terraform validate
+```
+
+```bash
+terraform apply -auto-approve
+```
+
+```bash
+python3 postdeploy.py
+```
+
+```bash
+terraform destroy -auto-approve
+```
+
+## Prod
 ```bash
 cd prod
 ```
